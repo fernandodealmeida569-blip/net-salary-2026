@@ -1,0 +1,15 @@
+{
+  "name": "net-salary-2026",
+  "version": "1.0.0",
+  "description": "Net salary after tax for Germany (Brutto Netto, Lohnsteuer 2026) and the UK (take-home pay 2026/27, Stamp Duty). Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": ["index.js", "src"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["salary", "net salary", "brutto netto", "lohnsteuer", "germany", "uk", "take-home pay", "income tax", "national insurance", "stamp duty", "payroll"],
+  "homepage": "https://calkoro.com/en/german-salary-calculator/",
+  "author": "Fernando (Calkoro, https://calkoro.com)",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
