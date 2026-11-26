@@ -5,11 +5,37 @@
   "type": "module",
   "main": "index.js",
   "exports": "./index.js",
-  "files": ["index.js", "src"],
-  "scripts": { "test": "node --test" },
-  "keywords": ["salary", "net salary", "brutto netto", "lohnsteuer", "germany", "uk", "take-home pay", "income tax", "national insurance", "stamp duty", "payroll"],
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "salary",
+    "net salary",
+    "brutto netto",
+    "lohnsteuer",
+    "germany",
+    "uk",
+    "take-home pay",
+    "income tax",
+    "national insurance",
+    "stamp duty",
+    "payroll"
+  ],
   "homepage": "https://calkoro.com/en/german-salary-calculator/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandodealmeida569-blip/net-salary-2026.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fernandodealmeida569-blip/net-salary-2026/issues"
+  },
   "author": "Fernando (Calkoro, https://calkoro.com)",
   "license": "MIT",
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }
